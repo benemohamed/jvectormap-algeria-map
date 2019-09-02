@@ -18,6 +18,11 @@
   ],
   "homepage": "https://github.com/benemohamed/jvectormap-algeria-map",
   "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-header": "2.0.9",
+    "gulp-rename": "1.4.0",
+    "gulp-uglify": "3.0.2",
+    "gulp-util": "3.0.8",
     "prettier": "1.18.2"
   }
 }
