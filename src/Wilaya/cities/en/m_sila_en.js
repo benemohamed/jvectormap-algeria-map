@@ -1,4 +1,4 @@
-jQuery.fn.vectorMap("addMap", "sidi_bel_abbes_ar", {
+jQuery.fn.vectorMap("addMap", "m_sila_en", {
   insets: [
     {
       width: 500,
