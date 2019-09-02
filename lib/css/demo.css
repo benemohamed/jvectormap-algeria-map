@@ -1,0 +1,39 @@
+.container .flex-fill {
+    position: relative;
+}
+
+.jvm_back {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+	-webkit-border-radius: 3px; /* Safari, Chrome */
+	-moz-border-radius: 3px; /* Firefox */
+    border-radius: 3px;
+    background: #354052a3;
+    padding: 3px 8px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+    line-height: 22px;
+    text-align: center;
+    box-sizing: content-box;
+}
+
+.jvectormap-zoomout, .jvectormap-zoomin {
+    background: #aba7d8;
+    line-height: 22px;
+    height: 22px;
+    width: 22px;
+	-webkit-border-radius: 100px; /* Safari, Chrome */
+	-moz-border-radius: 100px; /* Firefox */
+	border-radius: 100px;
+}
+
+.jvectormap-zoomin {
+    top: 0;
+}
+#dz_map {
+   /* background: #222;*/
+    color: #fff;
+    height:600px
+}

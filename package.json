@@ -1,0 +1,20 @@
+{
+  "name": "jvectormap-algeria-map",
+  "version": "1.0.0",
+  "description": "jVectorMap: Algeria map with wilayas and cities",
+  "directories": {
+    "lib": "src"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohamed Ben rebia <mohamed@ipfinder.io>",
+  "license": "MIT",
+  "keywords": [
+    "algeria",
+    "map",
+    "wilayas",
+    "cities"
+  ],
+  "homepage": "https://github.com/benemohamed/jvectormap-algeria-map",
+}
