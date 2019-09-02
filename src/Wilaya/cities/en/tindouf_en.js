@@ -1,9 +1,9 @@
 jQuery.fn.vectorMap("addMap", "tindouf_en", {
   insets: [
     {
-      width: 500,
+      width: 1100,
       top: 0,
-      height: 420,
+      height: 1100,
       bbox: [{ y: 0, x: 300 }, { y: 0, x: 0 }],
       left: 0
     }
@@ -11,10 +11,14 @@ jQuery.fn.vectorMap("addMap", "tindouf_en", {
   paths: {
     "1": {
       path: "",
-      name: ""
+      name: "Tindouf"
+    },
+    "2": {
+      path: "",
+      name: "Oum El Assel"
     }
   },
-  height: 420,
+  height: 1100,
   projection: { type: "mill", centralMeridian: 0.0 },
-  width: 500
+  width: 1100
 });
