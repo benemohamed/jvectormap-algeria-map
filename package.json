@@ -17,4 +17,7 @@
     "cities"
   ],
   "homepage": "https://github.com/benemohamed/jvectormap-algeria-map",
+  "devDependencies": {
+    "prettier": "1.18.2"
+  }
 }
