@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Demo alger</title>
+    <!-- Bootstrap Css Library -->
+    <link rel="stylesheet" type="text/css" href="../lib/css/bootstrap.min.css">
+    <!-- Jvector Map Css Library -->
+    <link rel="stylesheet" type="text/css" href="../lib/css/jquery-jvectormap.min.css">
+    
+    <link rel="stylesheet" type="text/css" href="../lib/css/demo.css">
+
+</head>
+<body>
+
+<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+  <h5 class="font-weight-bold my-0 mr-md-auto font-weight-normal">alger Map</h5>
+</div>
+    <div class="flex-fill w-100 mt-5">
+        <div id="dz_map"></div>
+    </div>
+
+<script type="text/javascript" src="../lib/js/jquery.min.js"></script>
+<script type="text/javascript" src="../lib/js/bootstrap.min.js"></script>
+
+
+<!-- Jvector Map JS Library -->
+<script type="text/javascript" src="../lib/js/jquery-jvectormap.min.js"></script>
+
+<script type="text/javascript" src="../src/Wilaya/cities/en/alger_en.js"></script>
+
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function (event) {
+    const jvm_map = $('#dz_map');
+    jvm_map.vectorMap({
+        map: 'alger_en',
+        enableZoom: false,
+        backgroundColor: 'transparent',
+        zoomOnScroll: true,
+        normalizeFunction: "polynomial",
+        hoverOpacity: .7,
+        hoverColor: false,
+        regionStyle: {
+            initial: {
+                fill: '#aba7d8',
+                "fill-opacity": 1,
+                stroke: '#fff',
+                "stroke-width": 2,
+                "stroke-opacity": 1
+            }
+        }
+});
+    });
+</script>
+
+
+<footer class="d-flex p-2 footer">Create By Mohamed Benrebia</footer>
+
+</body>
+</html>
